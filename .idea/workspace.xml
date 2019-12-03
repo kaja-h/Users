@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="403d16f9-6afe-4f05-98b2-8f51044b610a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1UNw7PWzfgiQm2U6EIb4nnoOfhj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.linters.configure.manually.selectedeslint" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/.nvm/versions/node/v13.1.0/bin/json-server" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="$USER_HOME$/.nvm/versions/node/v12.13.0/bin/node" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_interpreter_path" value="$USER_HOME$/.nvm/versions/node/v12.13.0/bin/node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+  </component>
+  <component name="RunManager">
+    <configuration name="companies.js" type="NodeJSConfigurationType" path-to-node="$USER_HOME$/.nvm/versions/node/v12.13.0/bin/node" nameIsGenerated="true" path-to-js-file="companies.js" working-dir="$PROJECT_DIR$/Companies and users">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="403d16f9-6afe-4f05-98b2-8f51044b610a" name="Default Changelist" comment="" />
+      <created>1575210192895</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575210192895</updated>
+      <workItem from="1575210194112" duration="15481000" />
+      <workItem from="1575310392523" duration="3570000" />
+      <workItem from="1575402207558" duration="4810000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="455" y="137" width="1000" height="846" key="#ESLint" timestamp="1575215312813">
+      <screen x="0" y="34" width="1920" height="1046" />
+    </state>
+    <state x="455" y="137" width="1000" height="846" key="#ESLint/0.34.1920.1046@0.34.1920.1046" timestamp="1575215312813" />
+    <state x="587" y="180" width="736" height="761" key="#companies.js" timestamp="1575214865178">
+      <screen x="0" y="34" width="1920" height="1046" />
+    </state>
+    <state x="587" y="180" width="736" height="761" key="#companies.js/0.34.1920.1046@0.34.1920.1046" timestamp="1575214865178" />
+    <state x="680" y="265" width="530" height="605" key="FileChooserDialogImpl" timestamp="1575214827706">
+      <screen x="0" y="34" width="1920" height="1046" />
+    </state>
+    <state x="680" y="265" width="530" height="605" key="FileChooserDialogImpl/0.34.1920.1046@0.34.1920.1046" timestamp="1575214827706" />
+    <state width="1893" height="261" key="GridCell.Tab.0.bottom" timestamp="1575235546347">
+      <screen x="0" y="34" width="1920" height="1046" />
+    </state>
+    <state width="1893" height="261" key="GridCell.Tab.0.bottom/0.34.1920.1046@0.34.1920.1046" timestamp="1575235546347" />
+    <state width="1893" height="261" key="GridCell.Tab.0.center" timestamp="1575235546347">
+      <screen x="0" y="34" width="1920" height="1046" />
+    </state>
+    <state width="1893" height="261" key="GridCell.Tab.0.center/0.34.1920.1046@0.34.1920.1046" timestamp="1575235546347" />
+    <state width="1893" height="261" key="GridCell.Tab.0.left" timestamp="1575235546346">
+      <screen x="0" y="34" width="1920" height="1046" />
+    </state>
+    <state width="1893" height="261" key="GridCell.Tab.0.left/0.34.1920.1046@0.34.1920.1046" timestamp="1575235546346" />
+    <state width="1893" height="261" key="GridCell.Tab.0.right" timestamp="1575235546347">
+      <screen x="0" y="34" width="1920" height="1046" />
+    </state>
+    <state width="1893" height="261" key="GridCell.Tab.0.right/0.34.1920.1046@0.34.1920.1046" timestamp="1575235546347" />
+    <state x="333" y="104" key="SettingsEditor" timestamp="1575215667879">
+      <screen x="0" y="34" width="1920" height="1046" />
+    </state>
+    <state x="333" y="104" key="SettingsEditor/0.34.1920.1046@0.34.1920.1046" timestamp="1575215667879" />
+    <state x="606" y="328" width="688" height="471" key="jetbrains.nodejs.interpreters-dialog" timestamp="1575215659371">
+      <screen x="0" y="34" width="1920" height="1046" />
+    </state>
+    <state x="606" y="328" width="688" height="471" key="jetbrains.nodejs.interpreters-dialog/0.34.1920.1046@0.34.1920.1046" timestamp="1575215659371" />
+  </component>
+</project>
