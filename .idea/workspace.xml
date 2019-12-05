@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="403d16f9-6afe-4f05-98b2-8f51044b610a" name="Default Changelist" comment="" />
+    <list default="true" id="403d16f9-6afe-4f05-98b2-8f51044b610a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/companies.js" beforeDir="false" afterPath="$PROJECT_DIR$/users/companies.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1UNw7PWzfgiQm2U6EIb4nnoOfhj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -15,6 +24,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.linters.configure.manually.selectedeslint" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/.nvm/versions/node/v13.1.0/bin/json-server" />
@@ -57,7 +67,9 @@
       <updated>1575210192895</updated>
       <workItem from="1575210194112" duration="15481000" />
       <workItem from="1575310392523" duration="3570000" />
-      <workItem from="1575402207558" duration="4810000" />
+      <workItem from="1575402207558" duration="7047000" />
+      <workItem from="1575487973098" duration="5872000" />
+      <workItem from="1575577239049" duration="4919000" />
     </task>
     <servers />
   </component>
