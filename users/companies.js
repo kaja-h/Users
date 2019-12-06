@@ -4,7 +4,7 @@ async function fetchData() {
         const resp = await fetch("http://localhost:3000/companies").then(resp => resp.json());
 
         const table = document.getElementById('list');
-        const rows = resp.map(x => Object.assign(x, response.find(y => y.uris.company == x.uri)));
+        // const rows = resp.map(x => Object.assign(x, response.find(y => y.uris.company == x.uri)));
         // rows.forEach(user => {
         //     const tr = document.createElement('tr');
         //     tr.innerHTML = '<td>' + user.uris.company + '</td>' +
@@ -22,7 +22,7 @@ async function fetchData() {
             tr.innerHTML = '<td>' + user.name + '</td>';
             table.appendChild(tr);
         });
-        console.log(response, resp, rows);
+        console.log(response, resp);
         return Promise.all([response, resp]);
 
       } catch (err) {
