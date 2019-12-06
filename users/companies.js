@@ -1,3 +1,5 @@
+//todo: remove commented code
+
 // fetch("http://localhost:3000/users")
 //     .then(resp => {
 //         console.log("Przykład 1:");
