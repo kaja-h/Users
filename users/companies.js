@@ -3,26 +3,30 @@ async function fetchData() {
         const response = await fetch("http://localhost:3000/users").then(response => response.json());
         const resp = await fetch("http://localhost:3000/companies").then(resp => resp.json());
 
-        const table = document.getElementById('list');
-        // const rows = resp.map(x => Object.assign(x, response.find(y => y.uris.company == x.uri)));
-        // rows.forEach(user => {
-        //     const tr = document.createElement('tr');
-        //     tr.innerHTML = '<td>' + user.uris.company + '</td>' +
-        //     '<td>' + user.name + '</td>';
-        //     table.appendChild(tr);
-        // })
+        const table = document.getElementById('table');
+        const list = resp.map(function(company) {
+            return {
+                name: company.name,
+                users: response.filter(function (user) {
+                    return user.uris.company === company.uri;
+                }).map(function (user) {
+                    return {
+                        id: user.name
+                    }
+                })
+            }
 
-        resp.forEach(company => {
-            const tr = document.createElement('tr');
-            tr.innerHTML = '<td>' + company.name + '</td>';
-            table.appendChild(tr);
         });
-        response.forEach(user => {
+        // debugger
+        list.forEach(list => {
             const tr = document.createElement('tr');
-            tr.innerHTML = '<td>' + user.name + '</td>';
+            tr.innerHTML = '<td>' + list.name + '</td>' +
+                '<td>' + list.users[index].id + '</td>';
             table.appendChild(tr);
-        });
-        console.log(response, resp);
+        })
+
+
+        console.log(response, resp, list);
         return Promise.all([response, resp]);
 
       } catch (err) {
