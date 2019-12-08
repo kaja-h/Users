@@ -3,7 +3,6 @@ async function fetchData() {
         const response = await fetch("http://localhost:3000/users").then(response => response.json());
         const resp = await fetch("http://localhost:3000/companies").then(resp => resp.json());
 
-        const table = document.getElementById('table');
         const list = resp.map(function(company) {
             return {
                 name: company.name,
@@ -15,17 +14,16 @@ async function fetchData() {
                     }
                 })
             }
-
         });
-        // debugger
+        const table = document.getElementById('table');
         list.forEach(list => {
             const tr = document.createElement('tr');
             tr.innerHTML = '<td>' + list.name + '</td>' +
-                '<td>' + list.users[index].id + '</td>';
+            (list.users).forEach(index => {
+                tr.innerHTML = '<td>' + list.users[index] + '</td>';
+            });
             table.appendChild(tr);
-        })
-
-
+        });
         console.log(response, resp, list);
         return Promise.all([response, resp]);
 
