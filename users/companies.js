@@ -1,7 +1,9 @@
 async function companies() {
     try {
-        const resp = await fetch("http://localhost:3000/companies").then(resp => resp.json());
+        const resp = await fetch("http://localhost:3000/companies")
+            .then(resp => resp.json());
         console.log(resp);
+        return resp
 
       } catch (err) {
         console.log(err);
@@ -10,28 +12,37 @@ async function companies() {
 
 async function users() {
     try {
-        const response = await fetch("http://localhost:3000/users").then(response => response.json());
+        const response = await fetch("http://localhost:3000/users")
+            .then(response => response.json());
         console.log(response);
+        return response
 
     } catch (err) {
         console.log(err);
     }
 };
 
-function run()  {
-        companies()
-            .then(users());
-        const list = .map(function (company) {
+function run() {
+    Promise.all([
+        companies(),
+        users()
+    ])
+        .then(([result1, result2]) => {
+            console.log(result1);
+            console.log(result2);
+            const list = result1.map(function (company) {
                 return {
                     name: company.name,
-                    user: .filter(function (user) {
-                        return company.uri === user.uris.company;
+                    user: result2.filter(function (user) {
+                        return user.uri === user.uris.company;
                     }).map(function (user) {
                         return {
                             id: user.name
                         }
                     })
                 }
+            })
+            console.log(list);
         })
 };
 run()
