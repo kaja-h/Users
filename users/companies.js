@@ -27,24 +27,28 @@ function run() {
         companies(),
         users()
     ])
-        .then(([result1, result2]) => {
-            console.log(result1);
-            console.log(result2);
-            const list = result1.map(function (company) {
+        .then(([company, user]) => {
+            const list = company.map(function (company) {
                 return {
                     name: company.name,
-                    user: result2.filter(function (user) {
-                        return user.uri === user.uris.company;
+                    user: user.filter(function (user) {
+                        return company.uri === user.uris.company;
                     }).map(function (user) {
                         return {
                             id: user.name
                         }
                     })
                 }
-            })
+            });
             console.log(list);
+            const table = document.getElementById('table');
+            list.forEach(user => {
+                const tr = document.createElement('tr');
+                tr.innerHTML = '<td>' + user.id + '</td>';
+                table.appendChild(tr);
+            })
         })
-};
+}
 run()
 
 // const table = document.getElementById('table');
@@ -53,7 +57,7 @@ run()
 //     tr.innerHTML = '<td>' + list.users.id + '</td>';
 //     table.appendChild(tr);
 // })
-
+//
 // list.forEach(list => {
 //     const tr = document.createElement('tr');
 //     tr.innerHTML = '<td>' + list.name + '</td>' +
