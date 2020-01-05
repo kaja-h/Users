@@ -7,7 +7,7 @@ async function companies() {
       } catch (err) {
         console.log(err);
       }
-};
+}
 
 async function users() {
     try {
@@ -26,12 +26,12 @@ function run() {
         users()
     ])
         .then(([company, user]) => {
-            const list = company.map(function (company) {
+            const list = company.map(company => {
                 return {
                     name: company.name,
-                    people: user.filter(function (user) {
+                    people: user.filter(user => {
                         return company.uri === user.uris.company;
-                    }).map(function (user) {
+                    }).map(user => {
                         return {
                             id: user.name
                         }
@@ -44,7 +44,7 @@ function run() {
                     company: user.name,
                     user: user.people.map(people => people.id)
                 }
-                });
+            });
 
             const table = document.getElementById('table');
             tables.forEach(tables => {
